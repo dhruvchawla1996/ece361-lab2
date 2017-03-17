@@ -7,4 +7,4 @@ client: client.c
 	gcc -o client -g client.c
 
 clean:
-	rm -f server.c client.c
+	rm -f server client
